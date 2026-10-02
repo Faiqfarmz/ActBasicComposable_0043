@@ -103,7 +103,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     }
 }
 
-
+@Preview(showBackground = true)
+@Composable
+fun TugasLoginPreview() {
+    Pam3Theme() {
+        TugasLogin()
+    }
+}
 
 
 

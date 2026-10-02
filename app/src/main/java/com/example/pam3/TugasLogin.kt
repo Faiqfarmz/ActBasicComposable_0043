@@ -26,3 +26,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pam3.ui.theme.Pam3Theme
 
+@Composable
+fun TugasLogin(modifier: Modifier = Modifier) {
+    // Ganti nama drawable di bawah sesuai nama file gambar di res/drawable
+    val latar = painterResource(id = R.drawable.gambar3)
+    val logo = painterResource(id = R.drawable.gambar2)
+    val foto = painterResource(id = R.drawable.gambar1)
+    Box(
+        modifier = modifier.fillMaxSize()
+    )
+

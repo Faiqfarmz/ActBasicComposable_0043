@@ -34,5 +34,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     val foto = painterResource(id = R.drawable.gambar1)
     Box(
         modifier = modifier.fillMaxSize()
-    )
+    ){
+        Image(
+            painter = latar,
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
 
